@@ -29,16 +29,11 @@ body{
     color: white;
 }
 
-.imagegrid img{
-    padding: 10px;
-    width: 50%;
-}
-
 .grid{
     display: grid;
-    padding-inline: 20px;
+    padding-inline: 10px;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 .grid img{
     transition: 0.1s;
