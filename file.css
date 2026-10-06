@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 
 .heading h1{
@@ -9,7 +10,6 @@ body{
     padding-top: 0px;
     margin: 15px;
 }
-
 .heading hr{
     text-align: center;
     font-size: 75px;
@@ -19,6 +19,14 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
+.heading a{
+    color: white;
+}
+.heading p{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
 
 .imagegrid img{
     padding: 10px;
@@ -27,12 +35,17 @@ body{
 
 .grid{
     display: grid;
+    padding-inline: 20px;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-
 .grid img{
+    transition: 0.1s;
     width: 100%;
+}
+.grid img:hover{
+    transform: scale(1.1); 
+    filter: brightness(100%); 
 }
 
 .casualtext p{
@@ -41,4 +54,17 @@ body{
     margin: 0;
     padding-top: 20px;
     font-size: 40px;
+}
+.casualtext a{
+    color: white;
+}
+
+.line hr{
+    color: white;
+    margin: 10%;
+}
+
+.contactgrid{
+    display: grid;
+
 }
