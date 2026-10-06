@@ -14,3 +14,5 @@ I did not use too many colours in this website as I often like minimal things.
 The font I used is Isometra by Ben Dunkle.
 You can check it out here: [ISOMETRA](https://fonts.google.com/specimen/Isometra?preview.script=Latn)
 
+AI Usage: 
+AI was used mainly for checkig out things I did not know and for debugging code when I cant seem to find the issue. However the code and the whole concept is done by me.
