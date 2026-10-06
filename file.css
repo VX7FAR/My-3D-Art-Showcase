@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    padding-top: 0px;
+    margin: 15px;
+}
+
+.heading hr{
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    padding-top: 0px;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imagegrid img{
+    padding: 10px;
+    width: 50%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid img{
+    width: 100%;
+}
+
+.casualtext p{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 40px;
+}
